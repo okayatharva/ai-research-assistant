@@ -1,11 +1,17 @@
+# Python environments and generated files
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Local credentials must never be committed to GitHub
 .env
 .env.*
 .streamlit/secrets.toml
+
+# Local databases and editor settings
 chroma_db/
 *.sqlite3
 .vscode/
+.pytest_cache/
